@@ -7,8 +7,8 @@ export function Card() {
 		return (
 			<div key={index} className="card mx-3" style={{ width: "18rem" }}>
 				<img
-					src="https://fe154d7d-1cbc-41cf-a32a-929f3ee5aacc.ws-us02.gitpod.io/mini-browser/workspace/Landing-page-with-React/src/img/rigo-baby.jpg"
-					className="card-img-top"
+					src="https://coder.clothing/images/stories/virtuemart/product/reactjs-logo-sticker.jpg"
+					className="card-img-top mt-2"
 					alt="..."
 				/>
 				<div className="card-body">
@@ -18,7 +18,7 @@ export function Card() {
 						make up the bulk of the card content.
 					</p>
 					<a href="#" className="btn btn-primary">
-						Go somewhere
+						Learn more
 					</a>
 				</div>
 			</div>
