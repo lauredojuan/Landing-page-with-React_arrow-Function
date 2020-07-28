@@ -2,7 +2,7 @@ import React from "react";
 import { Jumbotron } from "./jumbotron.js";
 import { Card } from "./card.js";
 
-export function Body() {
+ const Body = () => {
 	return (
 		<div className="container mt-3">
 			<Jumbotron />
@@ -10,3 +10,5 @@ export function Body() {
 		</div>
 	);
 }
+
+export default Body;
